@@ -1,0 +1,185 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(134.34% 134.34% at 50% 0%, #1f3757 0%, #131537 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .scroeboard {
+  width: 100%;
+  max-width: 70rem;
+  border: .1rem solid #fff;
+  border-radius: 1.5rem;
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+}
+
+.wrapper .scroeboard .score {
+  width: 15rem;
+  height: 11.4rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .scroeboard .score p {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #2a45c2;
+  line-height: 1.9rem;
+  letter-spacing: .25rem;
+}
+
+.wrapper .scroeboard .score h1 {
+  font-size: 5rem;
+  color: #565468;
+}
+
+.wrapper .hands {
+  width: 100%;
+  max-width: 47.6rem;
+  height: 43rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5rem;
+  background: url("../img/triangle.png") no-repeat center;
+}
+
+.wrapper .hands #scissor {
+  margin-left: 2rem;
+}
+
+.wrapper .hands #paper {
+  margin-right: 2rem;
+}
+
+.wrapper .hands .hand {
+  cursor: pointer;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.wrapper .hands .hand:hover {
+  -webkit-transform: translate3d(0rem, -0.8rem, 0);
+          transform: translate3d(0rem, -0.8rem, 0);
+}
+
+.wrapper .contest {
+  width: 100%;
+  max-width: 90rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5rem;
+  display: none;
+}
+
+.wrapper .contest img {
+  width: 27.5rem;
+  height: 27.5rem;
+  cursor: pointer;
+}
+
+.wrapper .contest .contest > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.wrapper .contest h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 2rem 0 5rem 0;
+  text-align: center;
+}
+
+.wrapper .contest .referee {
+  margin: 0 4rem;
+}
+
+.wrapper .contest .referee h1 {
+  margin: 2rem 0;
+  font-size: 4.5rem;
+}
+
+.wrapper .contest .referee .newGame {
+  display: inline-block;
+  padding: 1rem 4rem;
+  font-size: 2rem;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: .8rem;
+  color: #3b4363;
+  -webkit-transition: 250ms;
+  transition: 250ms;
+}
+
+.wrapper .contest .referee .newGame:hover {
+  background-color: #ece8e2;
+  -webkit-transform: translate3d(0px, -2px, 0px);
+          transform: translate3d(0px, -2px, 0px);
+}
+/*# sourceMappingURL=main.css.map */

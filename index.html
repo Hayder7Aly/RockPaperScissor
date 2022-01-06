@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="scss/main.css" />
+    <meta charset="UTF-8" />
+    <meta ="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+
+    <div class="wrapper">
+ 
+
+      <!-- --------------------- score board ----------------------  -->
+      <div class="scroeboard">
+
+        <div class="title">
+          <img src="./img/title.png" alt="Title" />
+        </div>
+
+        <div class="score">
+          <p>SCORE</p>
+          <h1 id="score">0</h1>
+        </div>
+
+      </div>
+
+
+      <!-- ---------------------- hands or main section --------------------------- -->
+
+      <div class="hands">
+        <div class="hand" id='paper'>
+          <img src="./img/Paper.png" alt="paper">
+        </div>
+        <div class="hand" id='scissor'>
+          <img src="./img/Scissors.png" alt="scissor">
+        </div>
+        <div class="hand" id='rock'>
+          <img src="./img/Rock.png" alt="rock">
+        </div>
+      </div>
+
+
+      <!------------------------------ contest ------------------------------------- -->
+
+      <div class="contest">
+
+        <div class="userhand">
+          <h1 class="title">YOU PICKED</h1>
+          <div class="handimageContainer">
+            <img id='userpickImg' src = "">
+          </div>
+        </div>
+
+        <div class="referee">
+          <div class="decision"><h1 id="win">YOU WIN</h1></div>
+          <div class="newGame">PLAY AGAIN</div>
+        </div>
+
+        <div class="computerhand">
+          <h1 class="title">COMPUTER PICKED</h1>
+          <div class="handimageContainer">
+            <img id="computerPickImg" src="">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
